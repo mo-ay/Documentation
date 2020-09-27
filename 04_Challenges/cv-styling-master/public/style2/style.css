@@ -1,0 +1,182 @@
+hgroup h2, #about h3{
+    display: none;
+}
+header{
+    position: relative;
+}
+hgroup h1{
+    border-bottom: 1px silver solid;
+    padding-bottom: 20px;
+}
+figure img{
+    transform: rotate(-10deg);
+    position: absolute;
+    right: 4em;
+    top: 1.5em;
+}
+body div{ /* this is because the id in html starts with #*/
+    margin: 20px 50px;
+}
+#about p{
+    font-style: oblique;
+    color: gray;
+    max-width: 800px;
+}
+section h3{
+    display: block;
+    
+    padding: 0px 10px;
+    padding-bottom: 200px;
+    float: left;
+    
+}
+section div{
+    
+   margin: 0px;
+   text-align: start;
+   padding-left: 20px;
+    
+}
+.skill{
+    padding-left: 0;
+    display: inline-block;
+   
+    
+}
+.skill span{
+    text-align: start;
+    display: block;
+    background-color: #008080;
+    margin: 5px;
+    padding: 0px 20px;
+    color: white;
+    
+}
+.skills-primary, .skills-secondary{
+    border-left: 2px solid black;
+    margin-left: 140px;
+    line-height: 50px;
+    
+}
+[data-skill="5"] span:after{
+    content: ' \2605' ' \2605' ' \2605';
+    font-size: 18pt;
+    color: white;
+    padding-left: 10px;
+   
+}
+[data-skill="3"] span:after{
+    content:  ' \2605' ' \2605';
+    font-size: 18pt;
+    color: white;
+    padding-left: 20px;
+   
+}
+[data-skill="1"] span:after{
+    content:  ' \2605';
+    font-size: 18pt;
+    color: white;
+    padding-left: 20px;
+   
+}
+[data-skill="9"] span:after{
+    content:  ' \2605' ' \2605'' \2605' ' \2605'' \2605' ;
+    
+    color: white;
+    padding-left: 20px;
+   
+}
+[data-skill="7"] span:after{
+    content:  ' \2605' ' \2605'' \2605'' \2605'  ;
+    
+    color: white;
+    padding-left: 20px;
+   
+}
+.skills-secondary{
+    font-size: 10pt;
+    
+}
+.skills-secondary [data-skill="5"] span:after{
+    content:  ' \2605' ' \2605'' \2605' ;
+    font-size: 10pt;
+    color: white;
+    padding-left: 35px;
+   
+}
+#experiences h3{
+ margin-left: -5.8em;
+ border-right: 2px solid black;
+ margin-right: 10px;
+}
+.experience{
+    padding-top: 4px;
+    position: relative;
+    
+}
+.experience-type{
+    color: #008080;
+}
+.experience-details{
+   position: absolute;
+   right: 2em; 
+   top: 1.3em;
+   color: silver;
+}
+#education h3{
+    margin-left: 2em;
+    border-right: 2px solid black;
+ margin-right: 10px;
+}
+#hobbies h3{
+    margin-left: 2.8em;
+    border-right: 2px solid black;
+ margin-right: 40px;
+ padding-bottom: 2em;
+ 
+}
+#hobbies{
+    padding-top: 10px;
+}
+#contact h3{
+   
+   display: none;
+
+}
+.contact{
+   float: left;
+   padding-left: 35px;
+   
+   
+}
+.contact-skype ,.contact-value {
+    display: none;
+}
+.contact-email {
+    background-image: url(mail.png) ;
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+}
+.contact-phone {
+    background-image: url(pngegg\ \(1\).png) ;
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+}
+.contact-github {
+    background-image: url(pngegg.png) ;
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+}
+.contact-facebook {
+    background-image: url(face.png) ;
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+}
