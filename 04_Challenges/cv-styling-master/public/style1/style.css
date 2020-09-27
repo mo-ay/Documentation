@@ -1,0 +1,180 @@
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 100px;
+    padding: 0px 40px;
+    justify-content: space-around;
+    
+}
+.skills .skill{
+    padding-top: 10px;
+}
+div.content section{
+    width: 50%;
+    
+}
+h3{
+    border-bottom: 1px solid silver;
+    padding: 10px 0px;
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-image: url(PikPng.com_no-circle-png_1418537.png);
+}
+
+.skills {
+    
+   background-color: #ddd;
+   color: white;
+}
+
+.experience-type, .experience-institution{
+    color: red;
+}
+.experience-details{
+    color: gray;
+}
+
+
+[data-skill="5"] span{
+    display: inline-block;
+    width: 50%;
+    background-color: red;
+}
+[data-skill="3"] span{
+    display: inline-block;
+    width: 30%;
+    background-color: red;
+}
+[data-skill="1"] span{
+    display: inline-block;
+    width: 10%;
+    background-color: red;
+}
+[data-skill="9"] span{
+    display: inline-block;
+    width: 90%;
+    background-color: red;
+}
+[data-skill="7"] span{
+    display: inline-block;
+    width: 70%;
+    background-color: red;
+}
+header div{
+    display: flex;
+   position: relative;
+   background-color: gray;
+   padding-left: 25px;
+   color: red;
+   
+}
+
+.contact{
+    position: absolute;
+    display: flex;
+    
+    width: 350px;
+  height: 85px;
+    top: 1.2em;
+    background-color:gray;
+    
+}
+.contact-type{
+    color: white;
+    background-color: red;
+    width: 40%;
+    
+   
+    
+}
+.contact-value{
+    color: red;
+    background-color: black;
+    width: 60%;
+    
+  
+    
+}
+.contact-skype dt{
+    position: absolute;
+    top: 17px;
+    
+    
+    
+    z-index: 1;
+    
+}
+
+.contact-phone dt{
+    position: absolute;
+    top: 35px;
+    
+    
+   
+    z-index: 1;
+    
+}
+.contact-github dt{
+    position: absolute;
+    top: 52px;
+    
+    
+    z-index: 1;
+    
+}
+.contact-facebook dt{
+    position: absolute;
+    top: 69px;
+   
+    z-index: 1;
+    
+}
+.contact-email dt{
+    position: absolute;
+    top: 0px;
+    
+    color: white;
+   
+    z-index: 1;
+    
+}
+.contact-email dd{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    left: 20%;
+
+}
+.contact-skype dd{
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+    left: 20%;
+
+}
+.contact-phone dd{
+    position: absolute;
+    top: 33px;
+    z-index: 1;
+    left: 20%;
+
+}
+.contact-github dd{
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    left: 20%;
+
+}
+.contact-facebook dd{
+    position: absolute;
+    top: 68px;
+    z-index: 1;
+    left: 20%;
+
+}
+
+#contact h3{
+    display: none;
+}
