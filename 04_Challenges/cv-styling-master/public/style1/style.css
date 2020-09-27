@@ -64,7 +64,7 @@ h3{
 header div{
     display: flex;
    position: relative;
-   background-color: gray;
+   background-color: rgb(186, 169, 169);
    padding-left: 25px;
    color: red;
    
@@ -178,3 +178,75 @@ header div{
 #contact h3{
     display: none;
 }
+a{
+  text-decoration: none;  
+  color: red;
+}
+.contact-skype .contact-value{
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    
+   
+    header div{
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+        justify-content:flex-start ;
+        align-items: flex-start;
+        margin: 0px;
+        
+    }
+    div.content section{
+        width: 100%;
+     }
+     #contact h3{
+       display: block; 
+       font-weight: bold; 
+       font-size: 1.3rem;
+       border-bottom: 1px solid silver;
+       padding-bottom:5px ;
+       display: list-item;
+       list-style-image: url(PikPng.com_no-circle-png_1418537.png);
+     }
+     /* .contacts{
+        display: flex; 
+        flex-direction: column;
+     }
+     .contacts .contact, .contacts .contact *{
+         display: block;
+         padding: 5px;
+         position: relative;
+         
+     }
+     .contacts .contact{
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid black;
+     } */
+     .contact{
+         position: relative;
+         top: auto;
+         bottom: auto;
+         margin: 0;
+         background-color: unset;
+         height:fit-content ;
+         
+     }
+     
+     .contact dd, .contact dt{
+         position: relative;
+         bottom: auto;
+        left: auto;
+        top: auto;
+        margin: 0;
+        padding: 0;
+       
+        height: 30px;
+     }
+     .contact dd{
+         background-color: unset;
+     }
+
+  }
